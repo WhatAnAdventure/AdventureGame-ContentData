@@ -1,7 +1,7 @@
 {
     "json":[
-        "data/GameData.json",
-        "data/MainMenu.json"
+        "data\\GameData.json",
+        "data\\MainMenu.json"
     ],
 
     "bitmap":[
