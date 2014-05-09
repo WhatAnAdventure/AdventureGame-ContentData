@@ -1,0 +1,20 @@
+{
+    "modelManagerKey":"MVC_VIEWS",
+    "views":
+    [
+        {
+            "viewId":"MAIN_MENU",
+            "layoutClass":"CenterButtonGroup",
+            "layoutData":
+            {
+                "title":"Main Menu",
+                "dataProvider":
+                    [
+                        {"label": "Start Game", "triggered": "onStartGame"},
+                        {"label": "Load Game", "triggered": "onLoadGame"},
+                        {"label": "Settings", "triggered": "onSettings"}
+                    ]
+            }
+        }
+    ]
+}
