@@ -1,6 +1,6 @@
 {
-    "modelManagerKey":"MVC_VIEWS",
-    "views":
+    "modelManagerKey":"MVC_LAYOUTS",
+    "layouts":
     [
         {
             "viewId":"MAIN_MENU",
