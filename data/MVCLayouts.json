@@ -4,7 +4,12 @@
     [
         {
             "viewId":"MAIN_MENU",
-            "layoutClass":"CenterButtonGroup",
+            "mvcType":"MainMenu",
+            "layoutType":"CenterButtonGroup",
+            "navigations":
+            {
+                "start_game":"STORY_001"
+            },
             "layoutData":
             {
                 "title":"Main Menu",
@@ -14,6 +19,19 @@
                         {"label": "Load Game", "triggered": "onLoadGame"},
                         {"label": "Settings", "triggered": "onSettings"}
                     ]
+            }
+        },
+
+        {
+            "viewId":"STORY_001",
+            "layoutType":"StoryPage",
+            "mvcType":"StoryPage",
+            "navigations":
+            {
+            },
+            "layoutData":
+            {
+                "title":"Story 001"
             }
         }
     ]
