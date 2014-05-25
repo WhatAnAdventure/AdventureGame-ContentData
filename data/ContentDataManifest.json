@@ -1,7 +1,7 @@
 {
     "json":[
         "data\\GameData.json",
-        "data\\MVCLayouts.json"
+        "data\\MVCViews.json"
     ],
 
     "bitmap":[
