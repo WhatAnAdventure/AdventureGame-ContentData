@@ -24,18 +24,14 @@
         },
         {
             "viewId":"SETTINGS_MENU",
-            "layoutType":"CenterButtonGroup",
+            "layoutType":"Headered",
             "navigations":
             {
-                "go_back":"MAIN_MENU"
             },
             "layoutData":
             {
                 "title":"Settings Menu",
-                "dataProvider":
-                    [
-                        {"label": "Go Back", "event":"go_back"}
-                    ]
+                "hasBackButton":"true"
             }
         },
         {
