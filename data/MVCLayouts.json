@@ -8,20 +8,36 @@
             "layoutType":"CenterButtonGroup",
             "navigations":
             {
-                "start_game":"STORY_001"
+                "start_game":"STORY_001",
+                "settings":"SETTINGS_MENU"
             },
             "layoutData":
             {
                 "title":"Main Menu",
                 "dataProvider":
                     [
-                        {"label": "Start Game", "triggered": "onStartGame"},
-                        {"label": "Load Game", "triggered": "onLoadGame"},
-                        {"label": "Settings", "triggered": "onSettings"}
+                        {"label": "Start Game", "event":"start_game"},
+                        {"label": "Load Game", "event":"load_game"},
+                        {"label": "Settings", "event":"settings"}
                     ]
             }
         },
-
+        {
+            "viewId":"SETTINGS_MENU",
+            "layoutType":"CenterButtonGroup",
+            "navigations":
+            {
+                "go_back":"MAIN_MENU"
+            },
+            "layoutData":
+            {
+                "title":"Settings Menu",
+                "dataProvider":
+                    [
+                        {"label": "Go Back", "event":"go_back"}
+                    ]
+            }
+        },
         {
             "viewId":"STORY_001",
             "layoutType":"StoryPage",
